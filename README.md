@@ -2,18 +2,17 @@
 
 Gives you a summary of css files in a given directory.
 
-2. NodeJS. You must install NodeJS.
-
 ### Install
 
     npm install -g css-summary
 
 #### Use it
 
-The CLI is the most powerful interface of all.
+CSS-Summary exposes a CLI-interface, so you can run it directly from the terminal:
 
     css-summary -f <folder path>
 
-    Ex:
+    Example:
 
     css-summary -f /Users/auchenberg/development/Podio/frontend-rails
+
