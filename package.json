@@ -1,0 +1,25 @@
+{
+  "author": "Kenneth Auchenberg",
+  "name": "css-summary",
+  "description": "Gives you a summary of css files in a given directory",
+  "version": "0.1.0",
+  "bin": {
+    "css-summary": "./bin/css-summary"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/auchenberg/css-summary.git"
+  },
+  "main": "css-summary.js",
+  "engines": {
+    "node": "~0.6.8"
+  },
+  "dependencies": {
+    "commander":"0.6.0",
+    "cssom":"0.2.3",
+    "glob-whatev": "0.1.8",
+    "css-parse": "1.0.4"
+  },
+  "optionalDependencies": {}
+}
+
